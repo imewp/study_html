@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复合选择器之链接伪类选择器</title>
+    <style>
+        a:link {
+            color: #333333;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: orange;
+        }
+        /* :hover 是链接伪类选择器 鼠标经过 */
+        
+        a:hover {
+            /* 鼠标经过的时候，由原来的 灰色 变成了 红色 */
+            color: red;
+        }
+        
+        a:active {
+            color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">小猪佩奇</a>
+</body>
+
+</html>
