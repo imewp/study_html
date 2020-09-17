@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动元素搭配标准流父盒子1</title>
+    <style>
+        .box {
+            width: 1226px;
+            height: 460px;
+            margin: 100px auto;
+            background-color: pink;
+        }
+        
+        .box .left {
+            width: 234px;
+            float: left;
+            padding: 20px 0;
+        }
+        
+        .box .left a {
+            display: block;
+            height: 42px;
+            background-color: #55585a;
+            font-size: 14px;
+            color: #ffffff;
+            text-decoration: none;
+            line-height: 42px;
+            padding-left: 30px;
+        }
+        
+        .box .left a:hover {
+            background-color: #ff6700;
+        }
+        
+        .box .right {
+            width: 992px;
+            height: 460px;
+            float: right;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+        <div class="left">
+            <a href="#">手机 电话卡</a>
+            <a href="#">电视 盒子</a>
+            <a href="#">笔记本 显示器</a>
+            <a href="#">家电 插线板</a>
+            <a href="#">出行 穿戴</a>
+            <a href="#">智能 路由器</a>
+            <a href="#">电源 配件</a>
+            <a href="#">健康 儿童</a>
+            <a href="#">耳机 音响</a>
+            <a href="#">生活 箱包</a>
+        </div>
+        <div class="right"></div>
+    </div>
+</body>
+
+</html>
