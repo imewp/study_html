@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?8ecl98');
+  src:  url('fonts/icomoon.eot?8ecl98#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8ecl98') format('truetype'),
+    url('fonts/icomoon.woff?8ecl98') format('woff'),
+    url('fonts/icomoon.svg?8ecl98#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-quill:before {
+  content: "\e907";
+}
+.icon-pen:before {
+  content: "\e908";
+}
+.icon-connection:before {
+  content: "\e91b";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-phone-hang-up:before {
+  content: "\e943";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-clock2:before {
+  content: "\e94f";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-undo2:before {
+  content: "\e967";
+}
+.icon-redo2:before {
+  content: "\e968";
+}
+.icon-arrow-up:before {
+  content: "\ea32";
+}
+.icon-arrow-right:before {
+  content: "\ea34";
+}
+.icon-arrow-down:before {
+  content: "\ea36";
+}
+.icon-arrow-left:before {
+  content: "\ea38";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-edge:before {
+  content: "\eadc";
+}
+.icon-like:before {
+  content: "\e901";
+}
+.icon-adobeillustrator:before {
+  content: "\e902";
+  color: #ff7c00;
+}
+.icon-adobeindesign:before {
+  content: "\e903";
+  color: #fd3f93;
+}
+.icon-apache:before {
+  content: "\e904";
+  color: #d22128;
+}
+.icon-apacheairflow:before {
+  content: "\e905";
+  color: #007a88;
+}
+.icon-c:before {
+  content: "\e906";
+  color: #a8b9cc;
+}
+.icon-circle:before {
+  content: "\e909";
+  color: #8669ae;
+}
+.icon-delicious:before {
+  content: "\e90a";
+  color: #39f;
+}
+.icon-dell:before {
+  content: "\e90b";
+  color: #007db8;
+}
+.icon-f-secure:before {
+  content: "\e90c";
+  color: #00baff;
+}
+.icon-figma:before {
+  content: "\e90d";
+  color: #f24e1e;
+}
+.icon-googledrive:before {
+  content: "\e90e";
+  color: #4285f4;
+}
+.icon-googlehangoutschat:before {
+  content: "\e90f";
+  color: #00897b;
+}
+.icon-intellijidea:before {
+  content: "\e910";
+}
+.icon-internetarchive:before {
+  content: "\e911";
+}
+.icon-mattermost:before {
+  content: "\e912";
+  color: #0072c6;
+}
+.icon-matternet:before {
+  content: "\e913";
+}
+.icon-osmc:before {
+  content: "\e914";
+}
+.icon-overleaf:before {
+  content: "\e915";
+  color: #47a141;
+}
+.icon-php:before {
+  content: "\e916";
+  color: #777bb4;
+}
+.icon-picarto-dot-tv:before {
+  content: "\e917";
+  color: #1da456;
+}
+.icon-rss:before {
+  content: "\e918";
+  color: #ffa500;
+}
+.icon-saucelabs:before {
+  content: "\e919";
+  color: #e2231a;
+}
+.icon-teamviewer:before {
+  content: "\e91a";
+  color: #0e8ee9;
+}
+.icon-tencentqq:before {
+  content: "\e91c";
+  color: #eb1923;
+}
+.icon-windows:before {
+  content: "\e91d";
+  color: #0078d6;
+}

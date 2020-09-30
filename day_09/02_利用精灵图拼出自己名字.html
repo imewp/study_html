@@ -6,45 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>利用精灵图拼出自己的名字</title>
     <style>
+        .box {
+            margin: 100px;
+            text-align: center;
+        }
+        
         span {
             display: inline-block;
+            /* margin: 100px 20px; */
+            background: url(images/abcd.jpg) no-repeat;
         }
         
         .m {
             width: 149px;
             height: 117px;
-            margin: 100px 0;
-            background: url(images/abcd.jpg) -104px -273px no-repeat;
+            background-position: -104px -273px;
         }
         
         .e {
             width: 112px;
             height: 112px;
-            margin: 100px 0;
-            background: url(images/abcd.jpg) -479px -7px no-repeat;
+            background-position: -479px -7px;
         }
         
         .w {
             width: 138px;
             height: 106px;
-            margin: 100px 0;
-            background: url(images/abcd.jpg) -115px -563px no-repeat;
+            background-position: -115px -563px;
         }
         
         .p {
             width: 96px;
             height: 117px;
-            margin: 100px 0;
-            background: url(images/abcd.jpg) -495px -273px no-repeat;
+            background-position: -495px -273px;
         }
     </style>
 </head>
 
 <body>
-    <span class="m"></span>
-    <span class="e"></span>
-    <span class="w"></span>
-    <span class="p"></span>
+    <div class="box">
+        <span class="m"></span>
+        <span class="e"></span>
+        <span class="w"></span>
+        <span class="p"></span>
+    </div>
+
 </body>
 
 </html>
