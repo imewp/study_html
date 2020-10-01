@@ -89,6 +89,10 @@ a {
     color: #666666;
 }
 
+.user img {
+    vertical-align: middle;
+}
+
 .banner {
     height: 421px;
     background-color: #1c036c;
